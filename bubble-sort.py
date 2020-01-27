@@ -1,3 +1,6 @@
+# Bubble sort is an algorithm that compares the adjacent elements and swaps their positions if they are not in the intended order. The order can be ascending or descending.
+
+
 def bubbleSort(array):
 	n = len(array)
 	for i in range(0,n):
