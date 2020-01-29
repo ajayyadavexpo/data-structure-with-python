@@ -1,3 +1,6 @@
+# Binary search is the search technique which works efficiently on the sorted lists. Hence, in order to search an element into some list by using binary search technique, we must ensure that the list is sorted.
+
+
 def binarySearch(array,left,right,search):
 	if(left <= right):
 		mid = left+(right-1)//2
