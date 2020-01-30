@@ -1,6 +1,6 @@
 import re
-password = "ak76d@#"
-if re.match(r'^(?=.*?[0-9].*?[0-9])(?=.*[!@/#].*[!@/#])[0-9a-zA-Z!@#$%/0-9]{7,}$', password):
+password = "PassWord19$@#"
+if re.match(r'^(?=.*?[0-9].*?[0-9])(?=.*[!@$&*%/#].*[!@$&*%/#])[0-9a-zA-Z!@#$%/0-9]{7,}$', password):
    	print("valid")
 else:
 	print('no valid')
