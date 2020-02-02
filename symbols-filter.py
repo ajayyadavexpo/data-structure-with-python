@@ -1,5 +1,6 @@
 import string
 default = "#l$e%ts go @an#d@@ g***et #l#unch$$$"
+#output should be lets go and get lunch
 
 letters = string.ascii_lowercase
 
